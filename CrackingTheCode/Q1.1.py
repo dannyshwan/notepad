@@ -1,5 +1,6 @@
 '''
 Checks to see if all characters in a string are unique
+Solved by: Daniel Shwan
 '''
 
 def isUnique(str):

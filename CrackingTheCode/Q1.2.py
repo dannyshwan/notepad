@@ -1,5 +1,6 @@
 '''
 Checks if a string is a permutation of the other
+Solved by: Daniel Shwan
 '''
 
 def CheckIfPermutation(str1, str2):

@@ -1,5 +1,6 @@
 '''
 Replace all spaces with "%20" in a string given a string and the true length of the string
+Solved by: Daniel Shwan
 '''
 
 def URLify(str, length):
