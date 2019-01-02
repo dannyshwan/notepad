@@ -25,10 +25,9 @@ def PalindromePermutation(str):
         if(occurence%2 != 0):
             if (middleChar == 0) and (occurence == 1) and not even:
                 middleChar += 1
-            
             else:
                 return False
-    
+                
     return True
 
 def charOccurence(charOfInterest, str):
