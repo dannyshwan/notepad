@@ -4,7 +4,7 @@
  * @return {number[]}
  * 
  * Problem solved by Daniel Shwan
- * Runtime: O(n)
+ * Runtime: O(n^2)
  */
 var twoSum = function(nums, target) {
     var i, j;
