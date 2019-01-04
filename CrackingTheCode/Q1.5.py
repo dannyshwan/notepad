@@ -5,26 +5,22 @@ Solved by: Daniel Shwan
 
 def OneAway(str1, str2):
 
-    difference = 0
-    stringLength1 = len(str1)
-    stringLength2 = len(str2)
+    editStr1 = str1
+    editStr2 = str2
 
     if str1 == str2:
         return True
-    
-    elif (stringLength1 - stringLength2 > 1) or (stringLength2 - stringLength1 > 1):
+
+    for i in range(0,len(str1)):
+        
+        char = str1[i]
+
+        editStr1 = editStr1.replace(char,'')
+        editStr2 = editStr2.replace(char,'')
+
+    if (len(editStr1)-len(editStr2)>1) or (len(editStr2)-len(editStr1)>1):
         return False
 
-    for i in range(0,stringLength1):
-        
-        if i == stringLength2:
-            return True
-        elif (str1[i] != str2[i]):
-            difference += 1
-        
-        if difference > 1:
-            return False
-    
     return True
 
 print(OneAway("pales", "pale")) #Should print True
