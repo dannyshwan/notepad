@@ -1,5 +1,8 @@
 # Daily
 
->Coding problems for practicing and self-improvement
->
->Some problems might be redone improve solution and maybe achieve a better runtime.
+> Coding problems for practicing and self-improvement.
+
+### Coding Problems from:
+    * [LeetCode] (https://leetcode.com/)
+    * [Project Euler] (https://projecteuler.net/archives)
+    * Cracking the Code
