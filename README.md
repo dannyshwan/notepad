@@ -1,2 +1,4 @@
 # Daily
-Daily coding-related practice problems. Some problems might be redone to attempt to achieve a better runtime.
+
+>Coding problems for practicing and self-improvement
+>Some problems might be redone improve solution and maybe achieve a better runtime.
