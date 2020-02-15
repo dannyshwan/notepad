@@ -12,4 +12,4 @@ class Solution:
       
       #reverse
       for row in matrix:
-          ow.reverse()
+         row.reverse()
