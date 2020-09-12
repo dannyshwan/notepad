@@ -4,5 +4,6 @@
    "author": "Daniel Shwan <dannyshwan@gmail.com>",
    "scripts": {
       "push": "git add . && git commit -m \"new problem solved\" && git push "
-   }
+   },
+   "dependencies": {}
 }
